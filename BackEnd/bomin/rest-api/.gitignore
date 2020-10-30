@@ -1,4 +1,5 @@
-application.properties
+<<<<<<< HEAD
+
 # Created by https://www.gitignore.io/api/java,react,maven,gradle,eclipse,intellij
 # Edit at https://www.gitignore.io/?templates=java,react,maven,gradle,eclipse,intellij
 
@@ -233,3 +234,38 @@ gradle-app.setting
 
 # End of https://www.gitignore.io/api/java,react,maven,gradle,eclipse,intellija
 
+=======
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+application.yml
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+>>>>>>> Initial commit
